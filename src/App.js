@@ -1,25 +1,26 @@
-import logo from './logo.svg';
+import CssBaseline from '@mui/material/CssBaseline';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+import React from 'react';
 import './App.css';
+import InteractiveMap from './Components/InteractiveMap/InteractiveMap';
+
+const themeDark = createTheme({
+    palette: {
+        background: {
+            default: '#222222',
+        },
+        text: {
+            primary: '#ffffff',
+        },
+    },
+});
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <ThemeProvider theme={themeDark}>
+            <CssBaseline /> <InteractiveMap />
+        </ThemeProvider>
+    );
 }
 
 export default App;
