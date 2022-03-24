@@ -6,12 +6,7 @@ import InteractiveMap from './Components/InteractiveMap/InteractiveMap';
 
 const themeDark = createTheme({
     palette: {
-        background: {
-            default: '#222222',
-        },
-        text: {
-            primary: '#ffffff',
-        },
+        mode: 'dark',
     },
 });
 

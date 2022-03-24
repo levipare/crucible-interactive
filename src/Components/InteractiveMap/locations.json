@@ -1,8 +1,10 @@
 [
     {
         "title": "John Proctor",
+        "cardTitle": "House of John Proctor",
         "description": "The house of John Proctor",
-        "x": 779,
-        "y": 752
+        "image": "https://salemwitchmuseum.com/wp-content/uploads/2018/05/Proctor-House-featured.jpg",
+        "x": 780,
+        "y": 753
     }
 ]

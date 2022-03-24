@@ -41,7 +41,9 @@ export default function InteractiveMap() {
                                         <Marker
                                             key={index}
                                             title={location.title}
+                                            cardTitle={location.cardTitle}
                                             description={location.description}
+                                            image={location.image}
                                             x={location.x}
                                             y={location.y}
                                         />
