@@ -9,7 +9,7 @@
     {
         "title": "The Prison",
         "description": "The prison is which accuses witches were held. Just outside occured the scene in which John Proctor rips his signed confession to witchcraft.",
-        "image": "",
+        "image": "https://tosalem.com/wp-content/uploads/2019/11/Old-Salem-Jail-Historical-Marker-10-Federal-Street-Salem-Massachusetts.jpg",
         "x": 2164,
         "y": 250
     },
@@ -26,5 +26,26 @@
         "image": "./Assets/parsonage.jpg",
         "x": 1346,
         "y": 863
+    },
+    {
+        "title": "Giles and Martha Corey",
+        "description": "",
+        "image": "./Assets/parsonage.jpg",
+        "x": 1010,
+        "y": 557
+    },
+    {
+        "title": "The Meeting House",
+        "description": "",
+        "image": "https://www.danverslibrary.org/archive/wp-content/uploads/2015/04/23-1024x768.jpg",
+        "x": 1392,
+        "y": 860
+    },
+    {
+        "title": "\"Witches Hill\"",
+        "description": "",
+        "image": "https://images.squarespace-cdn.com/content/v1/5e3b0edf146830159de5144f/1608603253855-OHXHGNUA4SMI62RX5GM5/Screen+Shot+2020-02-01+at+1.01.16+PM.JPG?format=1000w",
+        "x": 1968,
+        "y": 150
     }
 ]
