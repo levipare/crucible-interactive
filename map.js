@@ -5,6 +5,10 @@ var map = L.map('map', {
     maxZoom: 1,
 });
 
+map.attributionControl.addAttribution(
+    ' <a href="https://salem.lib.virginia.edu/maps/index.html">Map Source</a>'
+);
+
 var yx = L.latLng;
 
 var xy = function (x, y) {
@@ -29,18 +33,28 @@ fetchLocations().then((locations) => {
 });
 
 function PointGenerator(location) {
-    return L.marker(xy(location.x, location.y))
-        .addTo(map)
-        .bindPopup(location.description);
+    var popupCard = `<div class="info-card">
+    <a data-fancybox data-src="${location.image}" data-caption="${location.title}">
+    <img class="info-image" src="${location.image}"/>
+    </a>
+    <h3>${location.title}</h3>
+    <p>${location.description}</p>
+</div>`;
+
+    return L.marker(xy(location.x, location.y)).addTo(map).bindPopup(popupCard);
 }
 
 map.fitBounds(bounds);
-map.setMaxBounds(map.getBounds());
+
+var southWest = L.latLng(-74, -72),
+    northEast = L.latLng(1944, 2704),
+    maxBounds = L.latLngBounds(southWest, northEast);
+map.setMaxBounds(maxBounds);
 
 // Get click coords
 map.on('click', function (e) {
     var coord = e.latlng;
     var lat = Math.round(coord.lat);
     var lng = Math.round(coord.lng);
-    console.log(lat, lng);
+    console.log(lng, lat);
 });

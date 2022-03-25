@@ -1,10 +1,30 @@
 [
     {
-        "title": "John Proctor",
-        "cardTitle": "House of John Proctor",
-        "description": "The house of John Proctor",
-        "image": "https://salemwitchmuseum.com/wp-content/uploads/2018/05/Proctor-House-featured.jpg",
-        "x": 475,
-        "y": 1447
+        "title": "The House of John Proctor",
+        "description": "The house of John Proctor sdfasdaslkdhasohfos",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/2/22/WestfordMA_JohnProctorHouse.jpg",
+        "x": 1446.5,
+        "y": 474
+    },
+    {
+        "title": "The Prison",
+        "description": "The prison is which accuses witches were held. Just outside occured the scene in which John Proctor rips his signed confession to witchcraft.",
+        "image": "",
+        "x": 2164,
+        "y": 250
+    },
+    {
+        "title": "House of the Thomas and Ann Putnam",
+        "description": "",
+        "image": "",
+        "x": 1066,
+        "y": 1170
+    },
+    {
+        "title": "Rev. Samuel Parris's Parsonage",
+        "description": "",
+        "image": "./Assets/parsonage.jpg",
+        "x": 1346,
+        "y": 863
     }
 ]
