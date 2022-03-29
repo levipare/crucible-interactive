@@ -1,51 +1,72 @@
 [
     {
         "title": "The House of John Proctor",
-        "description": "The house of John Proctor sdfasdaslkdhasohfos",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/2/22/WestfordMA_JohnProctorHouse.jpg",
+        "description": "John Proctor lived here with his wife Elizabeth and his sons. Mary Warren stayed with the Proctor family as a servant. ",
+        "image": "https://salemwitchmuseum.com/wp-content/uploads/2018/05/John-Proctor-Memorial-800x800.jpg",
         "x": 1446.5,
         "y": 474
     },
     {
         "title": "The Prison",
-        "description": "The prison is which accuses witches were held. Just outside occured the scene in which John Proctor rips his signed confession to witchcraft.",
+        "description": "The prison is which accused witches were held. Just outside occured the scene in which John Proctor rips his signed confession to witchcraft.",
         "image": "https://tosalem.com/wp-content/uploads/2019/11/Old-Salem-Jail-Historical-Marker-10-Federal-Street-Salem-Massachusetts.jpg",
         "x": 2164,
         "y": 250
     },
     {
         "title": "House of the Thomas and Ann Putnam",
-        "description": "",
-        "image": "",
+        "description": "Thomas Putnam was a wealthy citizen of Salem and lived in this house with his wife Ann, and daughter Ruth. Ruth was the only surving child out of eight which lead Ann Putnam to accuse her midwives of witchery. ",
+        "image": "https://parsonscollegemuseum.com/wp-content/uploads/2017/11/ann-putnam.jpg",
         "x": 1066,
         "y": 1170
     },
     {
         "title": "Rev. Samuel Parris's Parsonage",
-        "description": "",
+        "description": "Samuel Parris, his niece Abigail Williams, and Tituba lived in this house designated for the minister of Salem.",
         "image": "./Assets/parsonage.jpg",
         "x": 1346,
         "y": 863
     },
     {
         "title": "Giles and Martha Corey",
-        "description": "",
-        "image": "./Assets/parsonage.jpg",
+        "description": "Home of the man who was crushed to death. Contary to Arthur Miller's play \"The Crucible\", Giles Corey and John Proctor did not have a fond relationship.",
+        "image": "https://sometimes-interesting.com/wp-content/uploads/2020/06/giles-corey-death-e1592856765983.jpg",
         "x": 1010,
         "y": 557
     },
     {
         "title": "The Meeting House",
-        "description": "",
+        "description": "Initial witchcraft examinations occured in this meeting house including that of Tituba, Sarah Osburn, and Sarah good.",
         "image": "https://www.danverslibrary.org/archive/wp-content/uploads/2015/04/23-1024x768.jpg",
         "x": 1392,
         "y": 860
     },
     {
-        "title": "\"Witches Hill\"",
-        "description": "",
+        "title": "Witches Hill",
+        "description": "The \"Witches Hill\" is the location where many of the convicted witches were executed.",
         "image": "https://images.squarespace-cdn.com/content/v1/5e3b0edf146830159de5144f/1608603253855-OHXHGNUA4SMI62RX5GM5/Screen+Shot+2020-02-01+at+1.01.16+PM.JPG?format=1000w",
         "x": 1968,
         "y": 150
+    },
+    {
+        "title": "Farm of Reverend John Hale",
+        "description": "Rev. John Hale's original home still stands and is preserved today.",
+        "image": "https://live.staticflickr.com/4168/34620833566_08a593c188_b.jpg",
+        "x": 2388,
+        "y": 622
+    },
+    {
+        "title": "Salem Court House",
+        "description": "Here is where the majority of witchcraft hearings took place in Salem. Mary Warren's trial took place here and is where the scene, in which the girls syncrhonized and called out the yellow bird above her, took place.",
+        "image": "https://salemwitchmuseum.com/wp-content/uploads/2018/07/salem_courthouse.jpg",
+        "x": 2145,
+        "y": 246
+    },
+    {
+        "title": "House of Judge Hathorne",
+        "description": "Judge John Hathorne was a leading judge of the Salem witch trials since the very beginning of the events. ",
+        "image": "https://2.bp.blogspot.com/-566q0br9Ztk/WO6E4Hm7REI/AAAAAAAIjkY/6WCtHOnCM5g4Or-d2G6iBN0eplWiaPWmQCLcB/s1600/017+Robert+Breuler+as+Judge+John+Hathorne.jpg",
+        "x": 2144,
+        "y": 210
     }
 ]

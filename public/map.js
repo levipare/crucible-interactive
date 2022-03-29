@@ -6,8 +6,9 @@ var map = L.map('map', {
 });
 
 map.attributionControl.addAttribution(
-    ' <a href="https://salem.lib.virginia.edu/maps/index.html">Map Source</a>'
+    '<a href="https://salem.lib.virginia.edu/maps/index.html">Map Source</a>'
 );
+map.attributionControl.addAttribution(`@${new Date().getFullYear()} Levi Pare`);
 
 var yx = L.latLng;
 
@@ -20,7 +21,7 @@ var xy = function (x, y) {
 };
 
 var bounds = [xy(0, 0), xy(2630, 1872)];
-var image = L.imageOverlay('/map.jpg', bounds);
+var image = L.imageOverlay('./map.jpg', bounds);
 image.addTo(map);
 
 // Generating the markers for the locations
