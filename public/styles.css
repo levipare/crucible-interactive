@@ -23,11 +23,26 @@ body {
     margin-top: 20px;
 }
 
+.leaflet-marker-icon {
+    transition: 0.25s;
+}
+
+.leaflet-marker-icon:hover {
+    top: -4px;
+}
+
 .info-image {
     width: 100%;
     object-fit: cover;
     max-height: 150px;
     border-radius: 4px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.info-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
 .info-card p {
