@@ -8,6 +8,9 @@ var map = L.map('map', {
 map.attributionControl.addAttribution(
     '<a href="https://salem.lib.virginia.edu/maps/index.html">Map Source</a>'
 );
+map.attributionControl.addAttribution(
+    '<a href="https://github.com/levipare/crucible-interactive">Github</a>'
+);
 map.attributionControl.addAttribution(`@${new Date().getFullYear()} Levi Pare`);
 
 var yx = L.latLng;
